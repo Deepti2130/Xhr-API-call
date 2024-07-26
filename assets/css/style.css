@@ -1,0 +1,62 @@
+body{
+    position: relative;
+}
+
+.bg{
+    background-color: #152733;
+     
+}
+
+.info{
+    border-radius: 30px;
+}
+
+.postcard h3{
+    height: 40px;
+    overflow: hidden;
+    text-overflow:ellipsis ;
+    white-space: nowrap;
+
+}
+
+.loader{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-holder{
+    background-color: #152733;
+    background-image:url(../images/img.svg); 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.formcss{
+    background-color: #152733;
+    box-shadow:3px 3px lightblue;
+    border-radius: 35px;
+    height: 400px;
+}
+
+.forminfo{
+    transform: translateX(30%);
+}
+
+.btninfo{
+    background-color: #6610f2;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btnrem{
+    color: #fff;
+    font-weight: 600;
+}
